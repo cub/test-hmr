@@ -1,0 +1,23 @@
+{
+  "extends": [
+		"stylelint-config-sass-guidelines",
+		"stylelint-config-concentric-order"
+	],
+  "rules": {
+		"max-nesting-depth": 6,
+		"selector-max-compound-selectors": 6,
+		"selector-no-qualifying-type": null,
+		"scss/dollar-variable-pattern": null,
+		"scss/at-function-pattern": null,
+		"selector-class-pattern": null,
+		"declaration-block-no-duplicate-properties": true,
+		"no-duplicate-at-import-rules": true,
+		"no-duplicate-selectors": true,
+		"order/order": [
+			"custom-properties",
+			"declarations"
+		],
+		"order/properties-alphabetical-order": null,
+		"declaration-block-trailing-semicolon": null
+	}
+}
